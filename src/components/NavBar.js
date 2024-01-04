@@ -48,6 +48,7 @@ export const NavBar = () => {
               <Nav.Link href="https://calendly.com/iamhvsharma/30min?month=2023-11" target="_blank" className={activeLink === 'book-a-call' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('book-a-call')}>Book a Call!</Nav.Link>
               <Nav.Link href="#about-us" className={activeLink === 'about-us' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('about-us')}>About Us</Nav.Link>
               <Nav.Link href="#prices" className={activeLink === 'prices' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('prices')}>Prices</Nav.Link>
+              <Nav.Link href="#AI Tools" className={activeLink === 'prices' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('prices')}>AI Tools</Nav.Link>
             </Nav>
             <span className="navbar-text">
               <HashLink to='#connect'>
